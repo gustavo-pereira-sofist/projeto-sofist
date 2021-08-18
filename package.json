@@ -1,0 +1,22 @@
+{
+  "name": "testes",
+  "version": "1.0.0",
+  "description": "desafio cypress web",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test:chrome": "cypress run --browser chrome --no-exit"
+  },
+  "author": "gustavo_pereira",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.2.0",
+    "cypress-cucumber-preprocessor": "^4.2.0",
+    "cypress-xpath": "^1.6.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}

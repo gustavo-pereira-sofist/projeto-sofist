@@ -1,0 +1,11 @@
+{
+    "chromeWebSecurity": false,
+    "baseUrl": "https://www.saucedemo.com/",
+    "env": {
+        "user": "standard_user",
+        "passwordOk": "secret_sauce"
+    },
+    
+    "testFiles": "**/*.feature",
+    "video": false
+}
