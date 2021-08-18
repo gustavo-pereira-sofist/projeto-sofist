@@ -13,7 +13,7 @@ Scenario: Realizar login na plataforma com usuário bloqueado
 
     Given que o usuário está na página de login 
     When o usuário tenta realizar o login com usuário bloqueado e senha válida 
-    Then será exibida uma mensagem de erro 1
+    Then será exibida uma mensagem de erro com usuario bloqueado
 
 Scenario: Realizar login na plataforma com usuário problemático
 
@@ -25,16 +25,16 @@ Scenario: Realizar login na plataforma com usuário em branco
 
     Given que o usuário está na página de login 
     When o usuário tenta realizar o login com usuário em branco 
-    Then será exibida uma mensagem de erro 2
+    Then será exibida uma mensagem de erro com usuario nao preenchido
 
 Scenario: Realizar login na plataforma com senha em branco e usuário preenchido
 
     Given que o usuário está na página de login 
     When o usuário tenta realizar o login com senha em branco e usuário preenchido 
-    Then será exibida uma mensagem de erro 3
+    Then será exibida uma mensagem de erro com senha em branco
 
 Scenario: Realizar login na plataforma com senha inválida e usuário preenchido
 
     Given que o usuário está na página de login 
     When o usuário tenta realizar o login com senha inválida e usuário preenchido 
-    Then será exibida uma mensagem de erro 4
+    Then será exibida uma mensagem de erro de senha invalida
