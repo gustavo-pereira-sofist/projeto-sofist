@@ -3,19 +3,22 @@
 </h1>
 
 <p>
-Este projeto foi criado com o objetivo de automatizar testes web utilizando BDD com cypress e Cucumber.
+Este projeto foi criado com o objetivo de automatizar testes web do <a href=https://www.saucedemo.com/Swag>Swag Labs</a> utilizando BDD com cypress e Cucumber.
 
 ## Pré-requisitos
 
-- <a href=https://git-scm.com/downloads>git</a>
-- <a href=https://nodejs.org/en/download/>node.js</a>
-- <a href=https://www.npmjs.com/package/cypress-xpath>xpath</a>
-
+<p align="left">
+    <a href="https://git-scm.com/downloads"><img src=https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white></a>
+    <a href="https://nodejs.org/en/download/"><img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"></a>
+    <a href="https://www.npmjs.com/package/cypress-xpath"><img src=https://img.shields.io/badge/xpath-17202C?style=for-the-badge&logo=cypress&logoColor=white></a>
+</p>
 
 ## Versões
 
-- Cypress 8.2.0
-- Cucumber 4.2.0
+- cypress 8.2.0
+- cypress-cucumber-preprocessor 4.2.0
+- cypress-xpath 1.6.2
+- nodejs 16.6.1
 
 ## Instalação
 
@@ -28,13 +31,12 @@ git clone https://github.com/gustavo-pereira-sofist/projeto-sofist
 Instalar o pacote:
 
 ```bash
-npm i
+npm install
 ```
 
 ## Execução
 
 ```bash
-
 # Executa no modo browser
 npx cypress open
 
@@ -42,9 +44,19 @@ npx cypress open
 npx cypress run
 ```
 
-## Resultados
+## Resultados esperados
 
+### Teste Login
 
+<p align="center">
+  <img alt="Login com sucesso" src="https://github.com/gustavo-pereira-sofist/projeto-sofist/blob/main/cypress/screenshots/All%20Integration%20Specs/loginComSucesso.png" width="50%">
+</p>
+
+### Teste Compra de Produto
+
+<p align="center">
+  <img alt="Compra com sucesso" src="https://github.com/gustavo-pereira-sofist/projeto-sofist/blob/main/cypress/screenshots/All%20Integration%20Specs/compraComSucesso.png" width="50%">
+</p>
 
 <p align="right">
     <a href="https://github.com/gustavo-pereira-sofist"><img alt="tagcat" src="https://github.com/gustavofpereira/gustavofpereira/blob/main/tagcat.png" width="140"></a>
