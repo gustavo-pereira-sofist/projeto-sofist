@@ -44,6 +44,10 @@ npx cypress open
 npx cypress run
 ```
 
+## Dashboard - cypress.io
+
+:bar_chart: <a href=https://dashboard.cypress.io/projects/ie41jr/runs/2>Swag Labs cypress.io  dashboard</a>
+
 ## Resultados esperados
 
 ### Teste Login
