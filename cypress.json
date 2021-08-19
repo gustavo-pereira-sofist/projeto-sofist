@@ -7,5 +7,6 @@
     },
     
     "testFiles": "**/*.feature",
-    "video": false
+    "video": false,
+    "projectId": "ie41jr"
 }
