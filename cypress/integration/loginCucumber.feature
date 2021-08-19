@@ -19,7 +19,7 @@ Scenario: Realizar login na plataforma com usuário problemático
 
     Given que o usuário está na página de login 
     When o usuário tenta realizar o login com usuário problemático e senha válida 
-    Then será direcionado para a página de produtos 
+    Then será direcionado para a página de produtos com problema
 
 Scenario: Realizar login na plataforma com usuário em branco
 

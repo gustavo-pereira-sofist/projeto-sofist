@@ -1,25 +1,21 @@
 <h1 align="center">
-:large_orange_diamond: Automatização de testes web com Cypress-Cucumber-BDD :large_orange_diamond:
+:large_blue_diamond: Automatização de testes web com Cypress-Cucumber-BDD :large_orange_diamond:
 </h1>
 
-<h2 align="center">
-  STA - Sofist Talent Academy
-</h2>
-
 <p>
-Este projeto foi criado como parte do STA - Sofist Talent Academy "<a href=https://www.sofist.com.br/>Sofist</a> com o objetivo de automatizar testes web utilizando BDD com cypress e Cucumber.
-
+Este projeto foi criado com o objetivo de automatizar testes web utilizando BDD com cypress e Cucumber.
 
 ## Pré-requisitos
 
-- git (colocar o link do git)
-- node (link)
+- <a href=https://git-scm.com/downloads>git</a>
+- <a href=https://nodejs.org/en/download/>node.js</a>
+- <a href=https://www.npmjs.com/package/cypress-xpath>xpath</a>
+
 
 ## Versões
 
-- Cypress xx.x.
-- Cucumber
-
+- Cypress 8.2.0
+- Cucumber 4.2.0
 
 ## Instalação
 
@@ -47,3 +43,9 @@ npx cypress run
 ```
 
 ## Resultados
+
+
+
+<p align="right">
+    <a href="https://github.com/gustavo-pereira-sofist"><img alt="tagcat" src="https://github.com/gustavofpereira/gustavofpereira/blob/main/tagcat.png" width="140"></a>
+</p>

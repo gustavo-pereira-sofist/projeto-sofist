@@ -19,7 +19,7 @@ When(/^o usuário tenta realizar o login com usuário e senha válidos$/, () => 
 
 Then(/^será direcionado para a página de produtos$/, () => {
     cy.xpath('//*[@class="title"]').should('contain', 'Products');
-
+    cy.screenshot('loginComSucesso');
 });
 
 //Scenario2
@@ -46,7 +46,7 @@ When(/^o usuário tenta realizar o login com usuário problemático e senha vál
 
 });
 
-Then(/^será direcionado para a página de produtos$/, () => {
+Then(/^será direcionado para a página de produtos com problema$/, () => {
     cy.xpath('//*[@class="title"]').should('contain', 'Products');
 
 });

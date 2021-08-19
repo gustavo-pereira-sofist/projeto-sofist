@@ -67,4 +67,5 @@ And(/^procede para fechar a compra 2$/, () => {
 
 Then(/^a compra é realizada com sucesso 2$/, () => {
     cy.xpath('//*[@class="title"]').should('contain', 'Checkout: Complete!');
+    cy.screenshot('compraComSucesso');
 });
