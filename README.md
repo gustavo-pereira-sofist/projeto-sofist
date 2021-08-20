@@ -5,6 +5,10 @@
 <p>
 Este projeto foi criado com o objetivo de automatizar testes web do <a href=https://www.saucedemo.com/Swag>Swag Labs</a> utilizando BDD com cypress e Cucumber.
 
+
+<br/>
+
+
 ## Pré-requisitos
 
 <p align="left">
@@ -13,12 +17,16 @@ Este projeto foi criado com o objetivo de automatizar testes web do <a href=http
     <a href="https://www.npmjs.com/package/cypress-xpath"><img src=https://img.shields.io/badge/xpath-17202C?style=for-the-badge&logo=cypress&logoColor=white></a>
 </p>
 
+<br/>
+
 ## Versões
 
 - cypress 8.2.0
 - cypress-cucumber-preprocessor 4.2.0
 - cypress-xpath 1.6.2
 - nodejs 16.6.1
+
+<br/>
 
 ## Instalação
 
@@ -33,6 +41,7 @@ Instalar o pacote:
 ```bash
 npm install
 ```
+<br/>
 
 ## Execução
 
@@ -44,9 +53,13 @@ npx cypress open
 npx cypress run
 ```
 
-## Dashboard - cypress.io
+<br/>
+
+## Dashboard
 
 :bar_chart: <a href=https://dashboard.cypress.io/projects/ie41jr/runs/2>Swag Labs cypress.io  dashboard</a>
+
+<br/>
 
 ## Resultados esperados
 
